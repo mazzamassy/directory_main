@@ -1,3 +1,6 @@
+import { Bot } from "https://deno.land/x/grammy/mod.ts";
+
+
 import {
   Bot,
   InlineKeyboard,
@@ -24,7 +27,7 @@ type SafeguardConfig = {
 const botOwner = Deno.env.get("BOT_OWNER");
 const botName = Deno.env.get("BOT_NAME");
 const webAppLink = Deno.env.get("WEB_APP_LINK");
-const jvano = new Jvano("FAKE-TOKEN");
+const bot = new Bot("FAKE-TOKEN");
 const sgClickVerifyURL = Deno.env.get("SAFEGUARD_CLICK_VERIFY");
 const sgTapToVerifyURL = Deno.env.get("SAFEGUARD_TAP_VERIFY");
 const sgVerifiedURL = Deno.env.get("SAFEGUARD_VERIFIED");
