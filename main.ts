@@ -1,6 +1,3 @@
-import { Bot } from "https://deno.land/x/grammy/mod.ts";
-
-
 import {
   Bot,
   InlineKeyboard,
@@ -42,7 +39,7 @@ const sgConfigDefault: SafeguardConfig = {
   name: "",
   inviteLink: "",
 };
-const bot = new Bot(gateKeeper as string);
+// const bot = new Bot(gateKeeper as string);
 const app = new Application();
 /* #endregion */
 
