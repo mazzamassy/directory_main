@@ -1,0 +1,8 @@
+{
+  "imports": {
+    "isbot": "npm:isbot@^5.1.17"
+  },
+  "tasks": {
+    "dev": "deno run --env-file --watch --unstable-kv -A main.ts"
+  }
+}
